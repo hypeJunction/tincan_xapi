@@ -16,11 +16,11 @@ TODO:
 ### Defining Verbs
 
 To define a verb, you will need to add name and definition to your language files,
-e.g. to define ```created```, add the following strings to your language files:
+e.g. to define ```answered```, add the following strings to your language files:
 
 ```php
 $en = array(
-	'tincan:verb:answered' => 'created',
+	'tincan:verb:answered' => 'answered',
 	'tincan:verb:answered:desc' => 'Indicates the actor responded to a Question.',
 );
 ```
@@ -28,7 +28,7 @@ $en = array(
 ### Definiting Activities
 
 To define an activity, you will need to add name and definition to your language files,
-e.g. to define a Elgg object with subtype question, add the following strings to your language files:
+e.g. to define an Elgg object with subtype question, add the following strings to your language files:
 
 ```php
 $en = array(
