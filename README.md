@@ -4,13 +4,21 @@ Elgg TinCan xAPI
 This plugin integrates TinCan Experience API and transmits TinCan statements to
 an LRS of your choosing.
 
+### What it does
+
+* Creates a public registry of verbs and activities used in your learning environment
+* Creates a layer for converting Elgg objects and users into TinCan compatible objects and actors
+* Exposes API for sending statements to a configured LRS
+
+### Acknowledgements
+
 The plugin has been commissioned and sponsored by Bodyology School of Massage.
 
-TODO:
+### To-Do's
 
-- Implement Interaction Activity API
-- Implement Attachment API
-- Implement Extensions https://registry.tincanapi.com/#home/extensions
+* [ ] Implement Interaction Activity API
+* [ ] Implement Attachment API
+* [ ] Implement Extensions https://registry.tincanapi.com/#home/extensions
 
 
 ### Defining Verbs
