@@ -1,0 +1,27 @@
+{
+	"name": "hypejunction/tincan_xapi",
+	"type": "elgg-plugin",
+	"description": "TinCan Experience API for Elgg",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "tincan", "experience API", "xAPI"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "ismayil@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "1.0.*",
+		"rusticisoftware/tincan": "~0.12.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
+
